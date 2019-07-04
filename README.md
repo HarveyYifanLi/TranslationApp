@@ -1,6 +1,5 @@
 # TranslationPad
 ![Test image](https://github.com/HarveyYifanLi/TranslationApp/blob/master/application.png)
-# Translation and learning Web Platform
 
 * This is a full stack JavaScript Web SPA built with the purpose of 
 helping English as a second language speakers to learn and translate English
