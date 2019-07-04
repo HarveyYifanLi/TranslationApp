@@ -5,10 +5,13 @@
 helping English as a second language speakers to learn and translate English
 faster and with a much more convenient User Interface.
 
-* Support full paragraphs translation.
+* Support full __paragraphs translation__.
 
 * Support full __CRUD__ operations and all the translated words/paragraphs are saved 
 in a non-relational database (i.e. mongodb) and thus allow easy reviewing.
+
+* Support __direct query__ from the app's UI thus make the process of self-assessment and
+reviewing very handy.
 
 ## Tech
 
