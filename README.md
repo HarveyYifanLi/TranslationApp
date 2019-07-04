@@ -3,7 +3,7 @@
 
 # Functionalities
 * This is a full stack JavaScript Web SPA built with the purpose of 
-helping English as a second language speakers to learn,review and translate English
+helping English as a second language speakers to learn, review and translate English
 (or many other languages) faster and providing users with a much more convenient User Interface.
 
 * Support both ways translation: A Language to B Language and vice versa.
