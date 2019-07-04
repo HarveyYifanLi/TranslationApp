@@ -6,6 +6,9 @@ faster and with a much more convenient User Interface.
 
 ## Tech
 
-Main API: Google Cloud Translation API 
-Frontend calls: AJAX through jQuery
-Backend: ExpressJS + NodeJS + MongoDB
+####Main API integration: 
+Google Cloud Translation API 
+####Frontend calls: 
+AJAX through jQuery
+####Backend: 
+ExpressJS + NodeJS + MongoDB
