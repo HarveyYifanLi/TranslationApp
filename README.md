@@ -1,3 +1,4 @@
+![Test image] (https://github.com/HarveyYifanLi/TranslationApp/blob/master/App.png)
 # TranslationApp
 
 This is a full stack JavaScript Web SPA built with the purpose of 
