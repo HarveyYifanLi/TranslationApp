@@ -6,6 +6,8 @@
 helping English as a second language speakers to learn and translate English
 faster and with a much more convenient User Interface.
 
+* Support both ways translation: A Language to B Language and vice versa.
+
 * Support full __paragraphs translation__.
 
 * Support full __CRUD__ operations and all the translated words/paragraphs are saved 
