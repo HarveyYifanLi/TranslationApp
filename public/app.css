@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700'); 
+ 
+body {
+	font-family: 'Montserrat', sans-serif;
+	/* background: #7fa6db; */
+	/* background-image: url("https://images.unsplash.com/photo-1482745637430-91c0bbcea3e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); */
+	/* background-image: url("https://images.unsplash.com/photo-1531347334762-59780ece5c76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1968&q=80"); */
+	background-image: url("https://images.unsplash.com/photo-1505744386214-51dba16a26fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2667&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*****************************HEADER STYLES*****************************/
+header {
+	text-align: center;
+}
+header h1 {
+	font-size: 64px;
+	font-weight: 300;
+	margin: 40px 0 25px;
+	color: #2c3e50;
+}
+header h1 span {
+	font-weight: 700;
+}
+header h2 {
+	/* color: #bdc3c7; */
+	color: grey;
+	font-weight:300;
+}
+
+/*****************************FORM STYLES*****************************/
+.form {
+	width: 800px;
+	margin: 20px auto 20px;
+}
+
+#queryFormPara {
+	text-align: center; /* this makes any child inside the div centered */
+}
+.searchform {
+	text-align: center; /* this makes any texts inside the input form centered */
+	font-size: medium; /* this controls the relative display size of the texts inside the input form */
+	width: 300px; /* this controls the display width of the form */
+	height: 30px; /* this controls the display height of the form */
+	margin: 20px auto; /* this makes the up-down left-right margin automatic */
+	background-color: #FAEBD7;
+}
+.queryButton {
+	background-color: orange; /* background-color of the button */
+	text-align: center; /* this makes the texts inside the button centered */
+	font-size: medium; /* this controls the relative size of the texts inside the button */
+	padding: 8px 20px; /* this controls the up-down left-right padding relative to the display size of the texts */
+	border-radius: 10%; /* this makes the corner of the button round */
+}
+
+#lanSelectorSection {
+	text-align: center;
+}
+
+#lanSubmitButton {
+	background-color: gold;
+	border-radius: 10%;
+}
+
+#todoInput {
+	width: 100%;
+	height: 60px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #34495e;
+	outline: none;
+	font: 300 28px 'Ubuntu', sans-serif;
+	padding: 20px;
+	color: #34495e;
+}
+
+/*****************************LIST STYLES*****************************/
+.list {
+	width: 800px;
+	margin: 0 auto;
+}
+.task {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	padding: 0 20px;
+	/* color: #34495e; */
+	color: black;
+	transition: all .3s ease;
+}
+.task:hover {
+	background: rgba(0, 0, 0, .02);
+	cursor: pointer;
+}
+
+.task:hover span{
+	opacity: 1;
+}
+
+.done {
+	text-decoration: line-through;
+	/* color: #bdc3c7; */
+	color: red;
+}
+
+li span {
+  float: right;
+  color: #c0392b;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+li span:hover {
+  color: #e74c3c
+}

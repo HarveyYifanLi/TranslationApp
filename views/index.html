@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="app.css" type="text/css" />
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Vocabulary<span>Pad</span></h1>
+            <h2>A single page app built with jQuery and node</h2>
+        </header>
+        
+        <div id="queryFormPara">
+            <form action="/api/todos" method="GET" id="dataQueryForm">
+            	<div class="form-group">
+            		<input type="text" name="search" placeholder="Search for a word here ... " class="searchform">
+            		<input type="submit" value="Go!"class="queryButton">
+            	</div>
+            </form>
+        </div>
+        
+        <div id="lanSelectorSection">
+            <form action="/api/todos" method="GET" id="lanForm">
+                <label for="lanDropdown">Translate To: </label>
+                <select id="lanDropdown">
+                    <option name="lanSelection" value="zh">Chinese</option>
+                    <option name="lanSelection" value="en">English</option>
+                    <option name="lanSelection" value="fr">French</option>
+                    <option name="lanSelection" value="ru">Russian</option>
+                </select>
+                <button id="lanSubmitButton">Confirm</button>
+            </form>
+        </div>
+        <!--<section>-->
+        <!--    <input type="text" name="search" id="queryInput" placeholder="api data search here ... ">-->
+        <!--</section>-->
+        <section class="form">
+            <input type="text" id="todoInput" placeholder="Insert your word here...">
+        </section>
+        
+        <ul class="list">
+        </ul>
+        
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
